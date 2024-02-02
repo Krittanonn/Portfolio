@@ -1,0 +1,224 @@
+body {
+    /* background-image: url('https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* height: 90vh; */
+    font: 1em sans-serif;
+    background-color: rgb(62, 62, 62);
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+p {
+    font-weight: 100;
+    white-space: pre-line;
+    margin-top: 5px;
+  }
+  
+.btn-01 {
+    display: flex;
+    gap: 7px;
+}
+  
+.btn-01 button {
+    border: 0.5px solid #ffffff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.btn-01 button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.column-block-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
+
+.btn-01 button a:hover {
+    background-color: #ffffff;
+    color:  rgb(0, 0, 0); /* เปลี่ยนสีข้อความเมื่อเม้าส์ไปวางที่ลิงก์ */
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .details {
+        background-color: #fff8dc;
+    }
+} */
+
+.details {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.column-block-0 {
+    margin-top: 900px;
+    color: #ffffff;
+}
+
+.Profile {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Profile h1,h2 {
+    font-size: 35px;
+    padding-bottom: 0px;
+}
+
+.Profile p {
+    padding-top: 0px;}
+
+    #details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .info {
+        /* display: flex; */
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    
+    .info .img {
+        flex-wrap: wrap;
+        height: 0 0 200px;
+    }
+    
+    .info .img img {
+        width: 30%;
+        border-radius: 15px;
+        padding: 7px;
+    }
+    
+    .Profile .info {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    
+    .Profile h1, .Profile h2, .Profile p {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        margin-bottom: 10px;
+    }
+    
+    .btn-social {
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    .btn-social a {
+        flex-grow: 1;
+      }    
+
+    .skills {
+        position: absolute;
+    }
+
+    /* #profileImage.flipped {
+        width: 30%;
+    }
+
+    #profileImage {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    @keyframes flipAnimation {
+        0% {
+            transform: scaleX(1);
+        }
+        100% {
+            transform: scaleX(1);
+        }
+    } */
+
+    .Skills {
+        color: aliceblue;
+        font: 1em sans-serif;
+    }
+
+    .Skills h1 {
+        font-weight: 100;
+        font-size: 22px;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    #ListSkills {
+        /* justify-content: center; */
+        align-items: center; 
+    }
+
+    #ListSkills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #ListSkills a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        background-color: #444;
+        border-radius: 15px;
+        /* width: calc(33.33% - 100px); */
+        height: 85px;
+        box-sizing: border-box;
+        transition: background-color 0.3s ease;
+        transition: color 0.3 s ease;
+        cursor: pointer;
+    }
+    
+    #ListSkills a img {
+        height: 65px;
+        margin-bottom: 8px;
+        transition: filter 0.3s ease;
+    }
+    
+    #ListSkills a span {
+    white-space: nowrap;
+    }
+
+    #ListSkills a:hover {
+        background-color: #d5d5d5;
+        color: #333;
+    }
